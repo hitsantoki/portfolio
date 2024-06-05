@@ -3,6 +3,8 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { SiLeetcode } from "react-icons/si";
 import { FaInstagram } from 'react-icons/fa';
+import { IoDocumentAttach } from "react-icons/io5";
+
 
 function Navbar() {
   return (
@@ -12,7 +14,9 @@ function Navbar() {
         <div className='text-white flex flex-shrink-0 items-center text-2xl'>
             Hit Santoki
         </div>
-        <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+        <div className='m-8 flex items-center justify-center gap-8 text-2xl'>
+        <a href="/src/assets/21dcs106_resume.pdf" download><IoDocumentAttach/></a>
+
         <a href="https://leetcode.com/u/hitsantoki40/" target="_blank" rel="noopener noreferrer">
         <SiLeetcode/>
         </a>  

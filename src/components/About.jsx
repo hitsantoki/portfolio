@@ -2,6 +2,7 @@ import React from 'react'
 import aboutImg from "../assets/profile2.jpg"
 import { ABOUT_TEXT } from '../constants';
 import { motion } from 'framer-motion';
+
 function About() {
   return (
     <div className='border-b border-neutral-900 pb-4'>
