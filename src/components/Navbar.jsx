@@ -15,7 +15,7 @@ function Navbar() {
             Hit Santoki
         </div>
         <div className='m-8 flex items-center justify-center gap-8 text-2xl'>
-        <a href="/src/assets/21dcs106_resume.pdf" download><IoDocumentAttach/></a>
+        <a href="/src/assets/21dcs106_resume.pdf" downloaded><IoDocumentAttach/></a>
 
         <a href="https://leetcode.com/u/hitsantoki40/" target="_blank" rel="noopener noreferrer">
         <SiLeetcode/>
